@@ -27,7 +27,7 @@ def mongodb(client,DB,collection_name):                         # mongodb 연결
     return collection       
 def page_shift(browser,collection):  
         from selenium.webdriver.common.by import By
-        for i in range(5):
+        for i in range(3):
             try:
                 item_name = browser.find_element(by=By.CSS_SELECTOR,value = "#product-atf > section > div.css-1qy9c46.ezpe9l12 > h1").text                  # 제품 이름 찾기
                 item_list = browser.find_elements(by=By.CSS_SELECTOR, value="#review > section > div:nth-child(3) > div.css-169773r.e36z05c8")
