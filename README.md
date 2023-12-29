@@ -5,6 +5,6 @@
 
 # 사이트 : https://www.kurly.com/collection-groups/market-best?page=2&collection=market-best
 # Mongo DB
-## client : mongodb://192.168.10.240:27017/
+## client : mongodb://192.168.10.184:27017/
 ## Database : toy_seleniums
 ## collection : kurly_review 
